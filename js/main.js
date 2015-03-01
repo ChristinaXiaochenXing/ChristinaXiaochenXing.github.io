@@ -1,20 +1,36 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-   document.getElementById("nav-home").addEventListener("click", function(){ 
+   var navHome = document.getElementById("nav-home");
+   var navResume = document.getElementById("nav-resume");
+   var navPortfolio = document.getElementById("nav-portfolio");
+   var navInterest = document.getElementById("nav-interest")
+
+   navHome.addEventListener("click", function(){ 
 		$( "#content" ).load( "Home.html" );
+		clickOnNav('#nav-home');
    });
    
-   document.getElementById("nav-home2").addEventListener("click", function(){ 
-		$( "#content" ).load( "Home.html" );
+   navResume.addEventListener("click", function(){ 
+		$( "#content" ).load( "Resume.html" );
+		clickOnNav('#nav-resume');
    });
    
-   document.getElementById("nav-portfolio").addEventListener("click", function(){ 
+   navPortfolio.addEventListener("click", function(){ 
 		$( "#content" ).load( "Portfolio.html" );
+		clickOnNav('#nav-portfolio');
    });
    
-   document.getElementById("nav-interest").addEventListener("click", function(){ 
+   navInterest.addEventListener("click", function(){ 
 		$( "#content" ).load( "Interest.html" );
+		clickOnNav('#nav-interest');
    });
    
-   document.getElementById("nav-home").click();
+   navHome.click();
+   
+   function clickOnNav(element){
+	$('#nav-resume').removeClass('active');
+	$('#nav-portfolio').removeClass('active');
+	$('#nav-interest').removeClass('active');
+	$(element).addClass('active');
+   }
  });
