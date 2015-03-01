@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
+
+	//Navigation
    var navHome = document.getElementById("nav-home");
    var navResume = document.getElementById("nav-resume");
    var navPortfolio = document.getElementById("nav-portfolio");
@@ -7,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
    navHome.addEventListener("click", function(){ 
 		$( "#content" ).load( "Home.html" );
 		clickOnNav('#nav-home');
+		window.scrollTo(0, 0);
    });
    
    navResume.addEventListener("click", function(){ 

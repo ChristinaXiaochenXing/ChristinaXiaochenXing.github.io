@@ -76,7 +76,9 @@ body {
   background-color: #428bca;
 }
 
-
+.img-responsive {
+    margin: 0 auto;
+}
 /*
  * Main content
  */
@@ -182,4 +184,20 @@ body {
   40% {
     box-shadow: 0 2.5em 0 0 #FFF;
   }
+}
+
+/*Mobile screens*/
+@media all and (max-width: 800px) {
+	#main-body{
+		background-image:none;
+		background-size: 0%;
+	}
+	
+	#large-header{
+		display:none;
+	}
+	
+	#Home-container h3{
+		font-size:18px;
+	}
 }
