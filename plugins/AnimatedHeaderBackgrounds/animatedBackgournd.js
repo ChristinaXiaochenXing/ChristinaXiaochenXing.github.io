@@ -83,7 +83,7 @@
     }
 
     function mouseMove(e) {
-		console.log(e);
+		//console.log(e);
         var posx = posy = 0;
         if (e.pageX || e.pageY) {
             posx = e.pageX;

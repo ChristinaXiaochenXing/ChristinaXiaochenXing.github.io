@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(){
-
+	$('#main-body').hide();
+	
    var navHome = document.getElementById("nav-home");
    var navResume = document.getElementById("nav-resume");
    var navPortfolio = document.getElementById("nav-portfolio");
    var navInterest = document.getElementById("nav-interest")
-
+	
    navHome.addEventListener("click", function(){ 
 		$( "#content" ).load( "Home.html" );
 		clickOnNav('#nav-home');
@@ -33,4 +34,10 @@ document.addEventListener('DOMContentLoaded', function(){
 	$('#nav-interest').removeClass('active');
 	$(element).addClass('active');
    }
+
+   $(window).load(function() {
+		$('#main-body').show();
+		$('#loading').hide();
+	});
+   
  });
