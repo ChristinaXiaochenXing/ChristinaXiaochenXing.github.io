@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function(){
-	$('#main-body').hide();
-	
    var navHome = document.getElementById("nav-home");
    var navResume = document.getElementById("nav-resume");
    var navPortfolio = document.getElementById("nav-portfolio");
@@ -36,8 +34,9 @@ document.addEventListener('DOMContentLoaded', function(){
    }
 
    $(window).load(function() {
-		$('#main-body').show();
-		$('#loading').hide();
+		$('#loading').fadeOut(300, function() {
+			$('#main-body').fadeIn(300);
+		});
 	});
    
  });
