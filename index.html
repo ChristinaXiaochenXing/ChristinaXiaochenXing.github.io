@@ -10,7 +10,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
   </head>
-  <body style="background-color:#001230;">
+  <body style="background-image: url('img/bg3.jpg');">
+	<div id="large-header" class="large-header" style="position:fixed">
+		<canvas id="background-canvas"></canvas>
+	</div>
 
    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -42,6 +45,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="plugins/AnimatedHeaderBackgrounds/TweenLite.min.js"></script>
+	<script src="plugins/AnimatedHeaderBackgrounds/EasePack.min.js"></script>
+	<script src="plugins/AnimatedHeaderBackgrounds/rAF.js"></script>
+	<script src="plugins/AnimatedHeaderBackgrounds/animatedBackgournd.js"></script>
 	<script src="js/main.js"> </script>
   </body>
 </html>
