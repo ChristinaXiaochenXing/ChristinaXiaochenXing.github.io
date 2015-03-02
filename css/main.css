@@ -200,4 +200,8 @@ body {
 	#Home-container h3{
 		font-size:18px;
 	}
+	
+	#Home-container .break-tag{
+		display:none;
+	}
 }

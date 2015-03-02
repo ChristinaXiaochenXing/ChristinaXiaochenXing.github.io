@@ -35,6 +35,14 @@ document.addEventListener('DOMContentLoaded', function(){
 	$('#nav-interest').removeClass('active');
 	$(element).addClass('active');
    }
+   
+	$('.nav a').on('click', function(){
+		 $('#navbar').collapse('hide');
+	});
+
+	$('#nav-home').on('click', function(){
+		 $('#navbar').collapse('hide');
+	});
 
    $(window).load(function() {
 		$('#loading').fadeOut(300, function() {
