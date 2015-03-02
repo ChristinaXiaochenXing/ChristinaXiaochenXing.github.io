@@ -43,6 +43,11 @@ document.addEventListener('DOMContentLoaded', function(){
 	$('#nav-home').on('click', function(){
 		 $('#navbar').collapse('hide');
 	});
+	
+	$('body').on('click', '.nav-sidebar li', function() {
+		$('.nav-sidebar li').removeClass('active');
+		$(this).addClass('active');
+	});
 
    $(window).load(function() {
 		$('#loading').fadeOut(300, function() {

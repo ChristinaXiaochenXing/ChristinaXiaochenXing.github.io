@@ -76,6 +76,10 @@ body {
   background-color: #428bca;
 }
 
+.nav-sidebar li a{
+	text-align:center;
+}
+
 .img-responsive {
     margin: 0 auto;
 }
