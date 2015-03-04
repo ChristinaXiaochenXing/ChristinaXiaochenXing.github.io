@@ -197,6 +197,19 @@ body {
   }
 }
 
+/*Home-container*/
+#Home-container h6 {
+
+	color:#9B9EA0;}
+
+#Home-container {
+	background-color: #123160;
+	margin-top:2%; 
+	margin-bottom:20%;
+	opacity: 0.8;
+}
+
+
 /*Mobile screens*/
 @media all and (max-width: 800px) {
 	#main-body{
@@ -213,6 +226,6 @@ body {
 	}
 	
 	#Home-container .break-tag{
-		display:none;
+		display:none;	
 	}
 }
