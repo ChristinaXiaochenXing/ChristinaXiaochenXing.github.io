@@ -198,9 +198,9 @@ body {
 }
 
 /*Home-container*/
-#Home-container h5 {
+#Home-container h4, #Home-container h3 {
 
-	color:#9B9EA0;}
+	color:white;}
 
 #Home-container {
 	background-color: #123160;
@@ -208,6 +208,8 @@ body {
 	margin-bottom:20%;
 	opacity: 0.8;
 }
+#Home-container img {
+	opacity:1;}
 
 
 /*Mobile screens*/
