@@ -199,17 +199,14 @@ body {
 
 /*Home-container*/
 #Home-container h4, #Home-container h3 {
-
-	color:white;}
+	color:white;
+}
 
 #Home-container {
-	background-color: #123160;
+	background-color: rgba(18,49,96,0.8);
 	margin-top:2%; 
 	margin-bottom:20%;
-	opacity: 0.8;
 }
-#Home-container img {
-	opacity:1;}
 
 
 /*Mobile screens*/
