@@ -45,9 +45,16 @@ document.addEventListener('DOMContentLoaded', function(){
 	});
 	
 	$('body').on('click', '.nav-sidebar li', function() {
-		$('.nav-sidebar li').removeClass('active');
-		$(this).addClass('active');
-	});
+	$('.nav-sidebar li').removeClass('active');
+	$(this).addClass('active');
+	});	
+var offset = 80;
+$('body').on('click', '.nav-sidebar li a', function() {
+	event.preventDefault();
+	$($(this).attr('href'))[0].scrollIntoView();
+	scrollBy(0, -offset);
+});
+
 
    $(window).load(function() {
 		$('#loading').fadeOut(300, function() {
