@@ -208,6 +208,10 @@ body {
 	margin-bottom:20%;
 }
 
+#Resume-container .date{
+	text-align:right;
+}
+
 
 /*Mobile screens*/
 @media all and (max-width: 800px) {
