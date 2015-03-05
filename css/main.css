@@ -203,6 +203,10 @@ body {
 	color:white;
 }
 
+#Home-container h5{
+	font-weight: 200;
+}
+
 #Home-container {
 	background-color: rgba(18,49,96,0.8);
 	margin-top:2%; 
