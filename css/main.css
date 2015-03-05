@@ -57,6 +57,7 @@ body {
     background-color: #123160;
     border-right: 1px solid #eee;
 	opacity:0.8;
+	font-size: 12px;
   }
 }
 
@@ -209,7 +210,7 @@ body {
 }
 
 #Resume-container .date{
-	text-align:right;
+	float:right;
 }
 
 
