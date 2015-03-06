@@ -15,16 +15,19 @@ document.addEventListener('DOMContentLoaded', function(){
    navResume.addEventListener("click", function(){ 
 		$( "#content" ).load( "Resume.html" );
 		clickOnNav('#nav-resume');
+		window.scrollTo(0, 0);
    });
    
    navPortfolio.addEventListener("click", function(){ 
 		$( "#content" ).load( "Portfolio.html" );
 		clickOnNav('#nav-portfolio');
+		window.scrollTo(0, 0);
    });
    
    navInterest.addEventListener("click", function(){ 
 		$( "#content" ).load( "Interest.html" );
 		clickOnNav('#nav-interest');
+		window.scrollTo(0, 0);
    });
    
    navHome.click();
